@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+.outer{
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner{
+    border:2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    /* position: relative; */
+}
+
+.a{
+    width: 150px;
+    height: 150px;
+    color: white;
+    
+}
+
+.a1{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.a2{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.a3{
+    background-color: green;
+    position: fixed;
+    top: 100px;
+    left: 200px;
+}
+
+.a4{
+    background-color: black;
+    position: sticky;
+    top: 100px;
+}
